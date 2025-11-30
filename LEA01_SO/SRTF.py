@@ -5,7 +5,7 @@ def srtf(processos):
 
     n = len(processos)
 
-    # Índice 2 = duração (tempo total de execução do processo)
+    # Índice 2 = duração
     tempo_restante = [process[2] for process in processos]
 
     # Vetor para marcar se o processo terminou
